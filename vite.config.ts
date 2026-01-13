@@ -1,13 +1,13 @@
 import { defineConfig } from 'vite';
-import basicSsl from '@vitejs/plugin-basic-ssl'; // <--- Importalo
+import basicSsl from '@vitejs/plugin-basic-ssl';
 
 export default defineConfig({
   base: './', 
   plugins: [
-    basicSsl() // <--- Attivalo qui
+    basicSsl()
   ],
   server: {
-    host: true, // Questo equivale a --host
+    host: true, // same as npm run dev --host
     https: true as any // Forza HTTPS
   }
 });
