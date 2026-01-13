@@ -1,7 +1,0 @@
-<?xml version='1.0' encoding='utf-8'?>
-<resources>
-    <string name="app_name">QuestVRApp</string>
-    <string name="title_activity_main">QuestVRApp</string>
-    <string name="package_name">com.kalwalt.questvrapp</string>
-    <string name="custom_url_scheme">com.kalwalt.questvrapp</string>
-</resources>
