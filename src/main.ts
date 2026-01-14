@@ -60,7 +60,7 @@ renderer.setAnimationLoop(() => {
 });
 
 if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('/sw.js') // Note: Vite may require extra configuration for sw.js in the root
+  navigator.serviceWorker.register('./sw.js') // Note: Vite may require extra configuration for sw.js in the root
   .then(() => console.log('SW registrato'))
   .catch((err) => console.error('SW fallito', err));
 }
